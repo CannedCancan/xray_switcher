@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "proxies"
+version = "0.1.0"
+description = ""
+authors = ["Boris The Blade <eusenko982@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = {extras = ["socks"], version = "^2.33.1"}
+redis = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
